@@ -4,35 +4,39 @@
     "url": "https://meonghideunguniverse.com",
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-storefront",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1844,
-    "timeDay": 1844,
-    "timeWeek": 1844,
-    "timeMonth": 1844,
-    "timeYear": 1844,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 1328,
+    "timeDay": 1328,
+    "timeWeek": 1328,
+    "timeMonth": 1328,
+    "timeYear": 1328,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   },
   {
     "name": "Supabase Keep-Alive API",
     "url": "https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET",
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "supabase-keep-alive-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 369,
-    "timeDay": 369,
-    "timeWeek": 369,
-    "timeMonth": 369,
-    "timeYear": 369,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.97%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 259,
+    "timeDay": 259,
+    "timeWeek": 259,
+    "timeMonth": 259,
+    "timeYear": 259,
+    "dailyMinutesDown": {
+      "2026-04-24": 0
+    }
   }
 ]
