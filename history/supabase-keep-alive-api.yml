@@ -1,7 +1,7 @@
-url: https://meonghideunguniverse.com/api/keep-alive?secret=mhu_internal_s3cr3t_k3y_2026_pr0d
+url: https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET
 status: up
 code: 200
-responseTime: 357
-lastUpdated: 2026-04-24T08:28:31.160Z
+responseTime: 380
+lastUpdated: 2026-04-24T08:51:11.397Z
 startTime: 2026-04-24T08:28:30.800Z
 generator: Upptime <https://github.com/upptime/upptime>
