@@ -7,7 +7,7 @@ sites:
   - name: MHU Storefront
     url: https://meonghideunguniverse.com
   - name: Supabase Keep-Alive API
-    url: https://meonghideunguniverse.com/api/keep-alive?secret=mhu_internal_s3cr3t_k3y_2026_pr0d
+    url: "https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET"
     expectedStatusCodes:
       - 200
 
