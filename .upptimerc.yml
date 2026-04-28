@@ -1,25 +1,87 @@
-# Pengaturan Repositori
+# ==========================================
+# MHU SYSTEM STATUS CONFIGURATION
+# ==========================================
 owner: workingproasia-nrs
 repo: mhu-status
 
-# Daftar Layanan yang Dipantau
+# ── DAFTAR LAYANAN (SPOOFING ACTIVE) ──────────────────────
 sites:
-  - name: MHU Storefront
+  - name: MHU Website
     url: https://meonghideunguniverse.com
-  - name: Supabase Keep-Alive API
+    headers:
+      - "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+  - name: MHU Core API Engine
     url: https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET
     expectedStatusCodes:
       - 200
+    headers:
+      - "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
-# Pengaturan Tampilan Halaman Status
+# ── KONFIGURASI TAMPILAN PREMIUM DARK ─────────────────────
 status-website:
   cname: status.meonghideunguniverse.com
-  name: MHU System Status
-  introTitle: "**Meong Hideung Universe** real-time system status."
-  introMessage: Halaman pemantauan otomatis untuk layanan toko online dan API internal.
+  name: "MHU | System Health"
+  introTitle: "**Health Dashboard**"
+  introMessage: Monitor kekuatan infrastruktur Meong Hideung Universe secara real-time dari seluruh penjuru dunia.
   theme: dark
+  
+  # Custom CSS untuk meniru gaya dashboard profesional (seperti gambar)
+  customCss: |
+    :root {
+      --bg-color: #09090b;
+      --card-bg: #18181b;
+      --border-color: #27272a;
+      --accent-green: #10b981;
+      --accent-red: #f43f5e;
+    }
+    body {
+      background-color: var(--bg-color) !important;
+      font-family: 'Inter', -apple-system, sans-serif !important;
+      color: #e4e4e7 !important;
+    }
+    .navbar {
+      background-color: rgba(9, 9, 11, 0.8) !important;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-color) !important;
+    }
+    .card {
+      background-color: var(--card-bg) !important;
+      border: 1px solid var(--border-color) !important;
+      border-radius: 12px !important;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+    }
+    h1, h2, h3 {
+      color: #ffffff !important;
+      letter-spacing: -0.025em;
+    }
+    .text-green-500 { color: var(--accent-green) !important; }
+    .bg-green-500 { background-color: var(--accent-green) !important; }
+    .text-red-500 { color: var(--accent-red) !important; }
+    .footer {
+      background-color: var(--bg-color) !important;
+      border-top: 1px solid var(--border-color) !important;
+    }
+    /* Menghilangkan elemen yang kurang rapi */
+    .btn-outline {
+      border-radius: 8px !important;
+      text-transform: none !important;
+      font-weight: 500;
+    }
+
   navbar:
-    - title: Status
+    - title: "Health Dashboard"
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: "Main Website"
+      href: https://meonghideunguniverse.com
+
+# ── LOKALISASI BAHASA (PROFESSIONAL TONE) ─────────────────
+i18n:
+  activeIncidents: "Insiden Berlangsung"
+  allSystemsOperational: "Semua Sistem Berjalan Optimal"
+  operational: "Sehat"
+  down: "Terputus"
+  degraded: "Kinerja Menurun"
+  ms: "ms"
+  response: "Respons"
+  uptime: "uptime"
