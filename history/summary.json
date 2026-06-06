@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-website",
     "status": "down",
-    "uptime": "86.09%",
+    "uptime": "86.02%",
     "uptimeDay": "39.82%",
     "uptimeWeek": "68.10%",
-    "uptimeMonth": "84.54%",
-    "uptimeYear": "86.09%",
+    "uptimeMonth": "84.44%",
+    "uptimeYear": "86.02%",
     "time": 860,
     "timeDay": 573,
     "timeWeek": 582,
@@ -47,7 +47,7 @@
       "2026-06-03": 633,
       "2026-06-04": 834,
       "2026-06-05": 933,
-      "2026-06-06": 0
+      "2026-06-06": 46
     }
   },
   {
@@ -56,11 +56,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-core-api-engine",
     "status": "down",
-    "uptime": "86.11%",
+    "uptime": "86.04%",
     "uptimeDay": "39.86%",
     "uptimeWeek": "68.12%",
-    "uptimeMonth": "84.57%",
-    "uptimeYear": "86.11%",
+    "uptimeMonth": "84.46%",
+    "uptimeYear": "86.04%",
     "time": 712,
     "timeDay": 514,
     "timeWeek": 578,
@@ -97,7 +97,8 @@
       "2026-06-02": 522,
       "2026-06-03": 633,
       "2026-06-04": 834,
-      "2026-06-05": 933
+      "2026-06-05": 933,
+      "2026-06-06": 46
     }
   }
 ]
