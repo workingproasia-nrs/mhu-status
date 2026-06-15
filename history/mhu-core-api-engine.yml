@@ -1,7 +1,7 @@
 url: https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET
-status: down
-code: 403
-responseTime: 42
-lastUpdated: 2026-06-14T23:59:06.192Z
+status: up
+code: 200
+responseTime: 1024
+lastUpdated: 2026-06-15T00:05:25.205Z
 startTime: 2026-04-28T05:52:22.792Z
 generator: Upptime <https://github.com/upptime/upptime>
