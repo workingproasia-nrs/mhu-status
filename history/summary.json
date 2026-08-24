@@ -4,17 +4,17 @@
     "url": "https://meonghideunguniverse.com",
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-website",
-    "status": "down",
-    "uptime": "95.02%",
-    "uptimeDay": "95.63%",
-    "uptimeWeek": "94.08%",
-    "uptimeMonth": "89.32%",
-    "uptimeYear": "95.02%",
-    "time": 627,
-    "timeDay": 392,
-    "timeWeek": 639,
-    "timeMonth": 618,
-    "timeYear": 627,
+    "status": "up",
+    "uptime": "94.97%",
+    "uptimeDay": "89.98%",
+    "uptimeWeek": "93.27%",
+    "uptimeMonth": "89.14%",
+    "uptimeYear": "94.97%",
+    "time": 626,
+    "timeDay": 379,
+    "timeWeek": 629,
+    "timeMonth": 616,
+    "timeYear": 626,
     "dailyMinutesDown": {
       "2026-06-27": 74,
       "2026-06-28": 470,
@@ -62,7 +62,7 @@
       "2026-08-21": 34,
       "2026-08-22": 74,
       "2026-08-23": 31,
-      "2026-08-24": 48
+      "2026-08-24": 129
     }
   },
   {
@@ -70,15 +70,15 @@
     "url": "https://meonghideunguniverse.com/api/keep-alive?secret=$KEEP_ALIVE_SECRET",
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-core-api-engine",
-    "status": "down",
-    "uptime": "94.67%",
-    "uptimeDay": "97.35%",
-    "uptimeWeek": "95.17%",
-    "uptimeMonth": "89.64%",
-    "uptimeYear": "94.67%",
+    "status": "up",
+    "uptime": "94.63%",
+    "uptimeDay": "91.70%",
+    "uptimeWeek": "94.36%",
+    "uptimeMonth": "89.45%",
+    "uptimeYear": "94.63%",
     "time": 541,
-    "timeDay": 434,
-    "timeWeek": 524,
+    "timeDay": 473,
+    "timeWeek": 527,
     "timeMonth": 542,
     "timeYear": 541,
     "dailyMinutesDown": {
@@ -129,7 +129,7 @@
       "2026-08-20": 135,
       "2026-08-21": 29,
       "2026-08-22": 64,
-      "2026-08-24": 38
+      "2026-08-24": 119
     }
   }
 ]
