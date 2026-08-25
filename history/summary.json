@@ -13,7 +13,7 @@
     "time": 625,
     "timeDay": 370,
     "timeWeek": 630,
-    "timeMonth": 613,
+    "timeMonth": 615,
     "timeYear": 625,
     "dailyMinutesDown": {
       "2026-06-28": 470,
@@ -70,17 +70,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/meonghideunguniverse.com.ico",
     "slug": "mhu-core-api-engine",
     "status": "up",
-    "uptime": "94.75%",
-    "uptimeDay": "90.96%",
-    "uptimeWeek": "94.43%",
-    "uptimeMonth": "89.54%",
-    "uptimeYear": "94.75%",
+    "uptime": "94.64%",
+    "uptimeDay": "91.70%",
+    "uptimeWeek": "94.53%",
+    "uptimeMonth": "89.57%",
+    "uptimeYear": "94.64%",
     "time": 540,
     "timeDay": 443,
     "timeWeek": 524,
-    "timeMonth": 539,
+    "timeMonth": 536,
     "timeYear": 540,
     "dailyMinutesDown": {
+      "2026-06-24": 194,
       "2026-06-26": 337,
       "2026-06-27": 311,
       "2026-06-28": 469,
@@ -127,7 +128,7 @@
       "2026-08-20": 135,
       "2026-08-21": 29,
       "2026-08-22": 64,
-      "2026-08-24": 130
+      "2026-08-24": 119
     }
   }
 ]
